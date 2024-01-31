@@ -1,0 +1,14 @@
+.dual{
+    background-color: rgb(58, 33, 117);
+    color: white;
+}
+.dual80{
+    background-color: rgb(17, 10, 90);
+    color: white;
+    opacity: 0.8;
+}
+.dual60{
+    background-color: rgb(10, 200, 100);
+    color: black;
+    opacity: 0.6;
+}
