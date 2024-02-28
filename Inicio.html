@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./CSS/css BTS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/estils.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <ul class="nav nav-tabs justify-content-center bg-black">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="Inicio.html">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="Inicio.html">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Juegos.html">Juegos</a>
@@ -20,5 +24,63 @@
             <a class="nav-link" href="Lore.html">Lore</a>
           </li>
       </ul>
+
+      <main class="bg-dark">
+        <div class="container-fluid bg-black">
+            <h1 class="text-uppercase text-center text-white">Five Nights at Freddy's</h1>    
+        </div>
+        <div class="container-md">
+          <div class="row text-bg-dark">
+            <h1 class="text-uppercase text-center text-white">Inicio</h1>
+              <pre>Esta página web esta dedicada a Five Nights at Freddy's, aqui podrás encontrar información sobre la historia de la franquicia y ver los juegos y libros
+                que pertenecen a ella, también podras ver las noticias mas recientes de la franquicia.
+              </pre>
+          </div>
+        <div class="container-fluid">
+          <div class="row text-bg-dark">
+            <h2 class="text-bg-danger">Noticias Recientes</h2>
+            <br>
+            <h3 class="text-bg-info">Adaptación de Five Nights at Freddy's Fazbear Frights a los videojuegos.</h3>
+            <pre>
+              Con motivo del décimo aniversario de la franquicia de Five Nights at Freddy's el creador, Scott Cawthon, ha anunciado
+              que esta trabajando en adaptar el primer libro de Five Nights at Freddy's Fazbear Frights: Into the Pit.
+              Con esto se han confirmado dos cosas:
+                -Scott Cawthon aún no se retira.
+                -La franquicia seguirá viva durante mucho mas tiempo.
+            </pre>
+            <h3 class="text-bg-warning">Imagenes mostradas por Scott Cawthon</h3>
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+              </div>
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="/IMG/into-the-pit-fnaf-2.png" alt="bienvenida" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                  <img src="/IMG/into-the-pit-fnaf-1.png" alt="buscando" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                  <img src="/IMG/into-the-pit-fnaf-3.png" alt="jumpscare" class="d-block" style="width:100%">
+                </div>
+              </div>
+              
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+            </div>
+        </div>
+        <br>
+
+
 </body>
-</html>
+</html>  
